@@ -8,7 +8,7 @@ __all__ = ['ParametricSoln', 'makeSensitivityPlot', 'makeCarpetPlot', 'make2DPar
     'makeContourPlot', 'make2DPlot', 'minimize', 'maximize', 'ProblemDescription']
 
 
-from parasol_main import ParametricSoln
-from Optimize import minimize, maximize
-from Plots import *
-from ProbDesc import ProblemDescription
+from .parasol_main import ParametricSoln
+from .Optimize import minimize, maximize
+from .Plots import *
+from .ProbDesc import ProblemDescription
